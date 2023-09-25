@@ -1,0 +1,23 @@
+/* import font */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+img {
+  -webkit-user-drag: none;
+  pointer-events: none;
+  /* Disable right-clicking */
+  /* user-drag: none; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
